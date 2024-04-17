@@ -9,6 +9,7 @@ module PlayingWithOperators where
 -- ($) :: (a -> b) -> a -> b
 -- The expression f $ x is the same as f x
 -- $ is used to avoid parentheses
+-- Additonal resource on operators: https://typeclasses.com/featured/dollar
 
 double x = 2*x
 quad = double . double 
