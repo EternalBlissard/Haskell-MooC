@@ -8,3 +8,4 @@ module Lambda where
     -- Its never needed to use a lambda expression. You can always instead define the function normally using let or where.
 main = do
     print((\x -> x + 3) 5)
+    print((\x y -> x^2+y^2) 2 3 )
